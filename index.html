@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Foodmap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<!--vista splash -->
+	<div class="container-fluid vistaSplash">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12">
+				 <div id="splash" style="display:none;">
+				 	<h1 class="title text-center">Foodmap</h1>
+				 </div>
+			</div>
+		</div>
+<!--fin vista splash -->
+	</div>
+<!--segunda seccion container mapa y fotos -->
+	<div class="container-fluid secondFoodmap">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12">
+				<div class="titleFoodmap">
+					<h1 class="titleFoodmapTwo text-center">Foodmap</h1>
+					<hr>
+				</div>
+			</div>
+		</div>
+<!--fin titulo segunda seccion -->
+	</div>
+<!--mapa-->
+	<div class="container-fluid map">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12">
+				<div class="mapGoogle">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d45995.443839089035!2d-70.65945762267407!3d-33.413552433327354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+mexicanos!5e0!3m2!1ses-419!2scl!4v1513091358054" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<h1 class="foodCerca text-center">Comida cerca de ti</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--fin mapa-->
+<!--	<div class="container">
+    <div class="row">    
+        <div class="col-xs-12 col-xs-12">
+		    <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    	<span id="search_concept">Buscar por</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#contains">Comida china</a></li>
+                      <li><a href="#its_equal">Comida peruana</a></li>
+                      <li><a href="#greather_than">Comida Arabe</a></li>
+                      <li><a href="#less_than">Comida chilena</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#all">Comida mexicana</a></li>
+                    </ul>
+                </div>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="Search term...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+        </div>
+	</div>
+</div> -->
+<!--botones para filtrar eleccion de restaurantes -->
+	<div class="container">
+    <div class="row">
+    	<div class="gallery col-xs-12 col-sm-12">
+    		<div align="center">
+            <button class="btn btn-default filter-button" data-filter="hdpe">Comida Japonesa</button>
+            <button class="btn btn-default filter-button" data-filter="sprinkle">Comida Arabe</button>
+            <button class="btn btn-default filter-button" data-filter="spray">Comida Mexicana</button>
+            <button class="btn btn-default filter-button" data-filter="irrigation">Comida Chilena</button>
+        </div>
+        <br/>
+        		<div class="gallery_product col-sm-3 col-xs-3 filter hdpe">
+    					<img src="assets/imag/sushi.jpg" class="img-responsive">
+  					</div>
+  					<div class="gallery_product col-sm-3 col-xs-3 filter sprinkle">
+  						<img src="assets/imag/arabe.jpg" class="img-responsive">
+  					</div>
+  					<div class="gallery_product col-sm-3 col-xs-3 filter spray">
+  						<img src="assets/imag/mexico.jpg" class="img-responsive">
+  					</div>
+  					<div class="gallery_product col-sm-3 col-xs-3 filter irrigation">
+  						<img src="assets/imag/chile.jpg" class="img-responsive">
+  					</div>
+    	</div>
+    </div>
+  </div>
+<!--fin botones para filtrar eleccion de restaurantes -->
+
+<body>
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- link a js-->
+<script type="text/javascript" src=assets/js/app.js></script>
+</body>
+</html>
