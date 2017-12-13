@@ -29,6 +29,17 @@ iframe{
 	font-size: 1.5em;
 }
 
+#buttonSearch {
+	background-color: #fff;
+  color: #A56811;
+  border: 1px solid #A56811;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+
+
 
 
 .filter-button{
@@ -41,7 +52,7 @@ iframe{
 }
 
 .filter-button:hover{
-  font-size: 18px;
+  font-size: 1em;
   border: 1px solid #A56811;
   border-radius: 5px;
   text-align: center;
@@ -62,3 +73,80 @@ iframe{
   margin-bottom: 30px;
 }
 
+
+
+
+
+.btn:hover {
+  background-color: #aa002d;
+  color: #fff;
+}
+h3 {
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  color: #444444;
+}
+
+
+.transition {
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn{
+  padding: 8px 40px;
+  border-radius: 2px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  color: #fff;
+}
+
+.dropdown-menu li a {
+	padding: 0;
+	margin: 0;
+	color: #A56811;
+}
+
+.dos {
+	height: 15vh;
+	object-fit: contain;
+}
+
+
+.gallery_product {
+  position: relative;
+  overflow: hidden;
+}
+.gallery_product:hover .text-view {
+  top: 40%;
+  opacity: 1;
+}
+.gallery_product:hover .btn-view {
+  top: 60%;
+  opacity: 1;
+}
+.gallery_product:hover img {
+  opacity: .8;
+}
+.gallery_product .text-view {
+  width: 95%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-weight: 600;
+}
+.gallery_product.text-view h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.gallery_product .btn-view {
+  width: 100%;
+}

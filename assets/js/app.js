@@ -1,7 +1,8 @@
+/* query vista splash*/
 $().ready(function() {
         $("#splash").fadeIn(500).fadeOut(2000);
       });
-
+/* query filtro restaurantes*/
 $(document).ready(function(e){
     $('.search-panel .dropdown-menu').find('a').click(function(e) {
 		e.preventDefault();
@@ -39,4 +40,7 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
+
+/* efecto mouseover sobre las fotos*/
+
 

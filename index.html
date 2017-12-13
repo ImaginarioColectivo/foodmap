@@ -43,53 +43,58 @@
 		</div>
 	</div>
 <!--fin mapa-->
-<!--	<div class="container">
+
+	<div class="container">
     <div class="row">    
-        <div class="col-xs-12 col-xs-12">
-		    <div class="input-group">
-                <div class="input-group-btn search-panel">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    	<span id="search_concept">Buscar por</span> <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="#contains">Comida china</a></li>
-                      <li><a href="#its_equal">Comida peruana</a></li>
-                      <li><a href="#greather_than">Comida Arabe</a></li>
-                      <li><a href="#less_than">Comida chilena</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#all">Comida mexicana</a></li>
-                    </ul>
-                </div>
-                <input type="hidden" name="search_param" value="all" id="search_param">         
-                <input type="text" class="form-control" name="x" placeholder="Search term...">
-                <span class="input-group-btn">
-                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-            </div>
-        </div>
+        <div class="col-xs-12 col-sm-12">
+			    <div class="input-group">
+	            <div class="input-group-btn search-panel text-center">
+	              <button id="buttonSearch" type="button" class="btn btn-dropdown-toggle" data-toggle="dropdown">
+	              	<span id="search_concept">Filtrar restaurantes</span><span class="caret"></span>
+	              </button>
+	              <ul class="dropdown-menu text-center" role="menu">
+	                <li>
+	                	<a type="button" class="link btn btn-default filter-button" data-filter="hdpe" href="#">Comida Japonesa</a>
+	                </li>
+	                <li>
+	                	<a type="button" class="jijiji btn btn-default filter-button" data-filter="sprinkle" href="#">Comida Arabe</a>
+	                </li>
+	                <li>
+	                	<a type="button" class="btn btn-default filter-button" data-filter="spray" href="#">Comida Mexicana</a>
+	                </li>
+	                <li>
+	                	<a type="button" class="btn btn-default filter-button" data-filter="irrigation" href="#">Comida Chilena</a>
+	                </li>
+	              </ul>
+	            </div>        
+	        </div>
+	      </div>
 	</div>
-</div> -->
-<!--botones para filtrar eleccion de restaurantes -->
+</div>
+<!-- galeria fotos eleccion de restaurantes -->
+
 	<div class="container">
     <div class="row">
     	<div class="gallery col-xs-12 col-sm-12">
-    		<div align="center">
-            <button class="btn btn-default filter-button" data-filter="hdpe">Comida Japonesa</button>
-            <button class="btn btn-default filter-button" data-filter="sprinkle">Comida Arabe</button>
-            <button class="btn btn-default filter-button" data-filter="spray">Comida Mexicana</button>
-            <button class="btn btn-default filter-button" data-filter="irrigation">Comida Chilena</button>
-        </div>
         <br/>
-        		<div class="gallery_product col-sm-3 col-xs-3 filter hdpe">
-    					<img src="assets/imag/sushi.jpg" class="img-responsive">
+        		<div class="gallery_product col-sm-6 col-xs-6 filter hdpe">
+    					<img src="assets/imag/sushi.jpg" class="img-responsive transition">
+    				<div class="text-view transition text-center">
+              <h3>More Information On</h3>
+                <p>Improved Glass Conservatory Roofs</p>
+              </div>
+              <div class="btn-view transition text-center">
+                <a type="submit" class="btn btn-info">Submit</a>
+              </div>
   					</div>
-  					<div class="gallery_product col-sm-3 col-xs-3 filter sprinkle">
+
+  					<div class="gallery_product col-sm-6 col-xs-6 filter sprinkle">
   						<img src="assets/imag/arabe.jpg" class="img-responsive">
   					</div>
-  					<div class="gallery_product col-sm-3 col-xs-3 filter spray">
+  					<div class="gallery_product col-sm-6 col-xs-6 filter spray">
   						<img src="assets/imag/mexico.jpg" class="img-responsive">
   					</div>
-  					<div class="gallery_product col-sm-3 col-xs-3 filter irrigation">
+  					<div class="gallery_product col-sm-6 col-xs-6 filter irrigation">
   						<img src="assets/imag/chile.jpg" class="img-responsive">
   					</div>
     	</div>
