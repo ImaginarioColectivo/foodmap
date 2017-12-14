@@ -24,10 +24,6 @@ iframe{
 	height: 30vh;
 }
 
-.foodCerca {
-	color: #A56811;
-	font-size: 1.5em;
-}
 
 #buttonSearch {
 	background-color: #fff;
@@ -36,11 +32,6 @@ iframe{
   border-radius: 5px;
   text-align: center;
 }
-
-
-
-
-
 
 .filter-button{
 	font-size: 1em;
@@ -72,10 +63,6 @@ iframe{
 .gallery_product{
   margin-bottom: 30px;
 }
-
-
-
-
 
 .btn:hover {
   background-color: #aa002d;
@@ -110,12 +97,6 @@ h3 {
 	margin: 0;
 	color: #A56811;
 }
-
-.dos {
-	height: 15vh;
-	object-fit: contain;
-}
-
 
 .gallery_product {
   position: relative;

@@ -1,5 +1,5 @@
 /* query vista splash*/
-$().ready(function() {
+$(document).ready(function() {
         $("#splash").fadeIn(500).fadeOut(2000);
       });
 /* query filtro restaurantes*/
